@@ -5,7 +5,7 @@ export class product {
         this.title = title;
         this.description = description;
         this.price = price;
-        this.thumbnail = [];  // Corregir aquí
+        this.thumbnail = [];  
         this.stock = stock;
         this.code = code;
         this.id = crypto.randomBytes(10).toString('hex');
